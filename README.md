@@ -1,4 +1,4 @@
-# pov2lstick
+# POV to L-Stick
 
 You can use the joypad's POV (hat switch) as the L-stick in applications that use DirectInput8.
 
@@ -17,7 +17,7 @@ For 32-bit applications, use the one in the x86 folder; for 64-bit applications,
 
 ---
 
-# pov2lstick
+# POV to L-Stick
 
 DirectInput8 を使用しているアプリケーションで、ジョイパッドのハットスイッチ (POV) を左スティックとして操作できるようにするための DLL です。
 
