@@ -33,6 +33,7 @@
 
 #.vs
 **/.vs/**
+*.user
 
 #don't ignore
 !bin/**/*.exe
