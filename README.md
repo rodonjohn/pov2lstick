@@ -6,7 +6,7 @@ ex. Touhou
 
 ## How to use
 
-Copy dinput.dll in the "bin" folder to the same directory as the executable file (.exe) of the application you want to use.
+Copy dinput8.dll in the "bin" folder to the same directory as the executable file (.exe) of the application you want to use.
 
 For 32-bit applications, use the one in the x86 folder; for 64-bit applications, use the one in the x64 folder.
 
@@ -25,7 +25,7 @@ DirectInput8 を使用しているアプリケーションで、ジョイパッ�
 
 ## 使い方
 
-bin フォルダの中にある dinput.dll を、使用したいアプリケーションの実行ファイル(.exe)と同じディレクトリにコピーしてください。
+bin フォルダの中にある dinput8.dll を、使用したいアプリケーションの実行ファイル(.exe)と同じディレクトリにコピーしてください。
 
 32bit アプリケーションの場合は x86 フォルダのものを、64bit アプリケーションの場合は x64 フォルダのものを使用してください。
 
