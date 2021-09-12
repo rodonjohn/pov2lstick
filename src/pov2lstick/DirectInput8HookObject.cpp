@@ -418,7 +418,7 @@ namespace di8hook
 
 	STDMETHODIMP_(HRESULT) CDinput8DeviceHookW::GetImageInfo(LPDIDEVICEIMAGEINFOHEADERW a)
 	{
-		return this->GetImageInfo(a);
+		return p->GetImageInfo(a);
 	}
 
 	STDMETHODIMP_(HRESULT) CDinput8DeviceHookA::QueryInterface(REFIID riid, LPVOID* ppvObj)
@@ -650,6 +650,6 @@ namespace di8hook
 
 	STDMETHODIMP_(HRESULT) CDinput8DeviceHookA::GetImageInfo(LPDIDEVICEIMAGEINFOHEADERA a)
 	{
-		return this->GetImageInfo(a);
+		return p->GetImageInfo(a);
 	}
 }
